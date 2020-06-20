@@ -1,0 +1,8 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+.bg{
+  background:linear-gradient(white, #D3D8E8);
+}

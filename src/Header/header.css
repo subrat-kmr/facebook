@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700&display=swap');
+.header{
+    background-color: #3b5998;
+}
+.loginContainer{
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+.label{color: azure;
+    margin-top: -22px;
+    display: flex;
+}
+.login_button{
+    background-color: #4267b2;
+    height: 30px;
+    width: 59px;
+    border-color: #29487d !important;
+    border-radius: 2px;
+}
+.font{
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+}
+#root > div > div:nth-child(1) > div > div > div > div.ant-col.ant-col-14{
+    max-width: 55.333333% !important;
+}
+.forgotPasword{
+    color: #aeb8ce !important;
+    font-weight: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
