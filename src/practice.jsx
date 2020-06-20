@@ -87,7 +87,7 @@ render() {
             <input id='input' type='text'  onClick= {(evt)=> {
                 var inputValue = evt.target.value;
                                                     list.map((item,index)=> {
-                                                        if(item.author === inputValue ){
+                                                        if(item.author !== inputValue ){
                                                             return list.splice(1,index);
                                                         }
                                                     } )
@@ -95,7 +95,7 @@ render() {
         </div>
     <table>
         <thead>
-            <th>Tiltle</th>
+            <th>title</th>
             <th>Url</th>
             <th>Author</th>
             <th>Num_comments</th>
