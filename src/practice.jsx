@@ -95,7 +95,7 @@ render() {
         </div>
     <table>
         <thead>
-            <th>title</th>
+            <th>Tiltle</th>
             <th>Url</th>
             <th>Author</th>
             <th>Num_comments</th>
